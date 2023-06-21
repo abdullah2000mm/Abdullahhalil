@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AbdullahHalil"
+        tools:targetApi="31">
+        <activity
+            android:name=".kitirKapakTatlisi"
+            android:exported="false"
+            android:parentActivityName=".AntakyaTatli" />
+        <activity
+            android:name=".kunefe"
+            android:exported="false"
+            android:parentActivityName=".AntakyaTatli" />
+        <activity
+            android:name=".antakyaKombesi"
+            android:exported="false"
+            android:parentActivityName=".AntakyaTatli" />
+        <activity
+            android:name=".ekmek"
+            android:exported="false"
+            android:parentActivityName=".AntakyaYemek" />
+        <activity
+            android:name=".kebab"
+            android:exported="false"
+            android:parentActivityName=".AntakyaYemek" />
+        <activity
+            android:name=".sihilMahsi"
+            android:exported="false"
+            android:parentActivityName=".AntakyaYemek" />
+        <activity
+            android:name=".haronCehennem"
+            android:exported="false"
+            android:parentActivityName=".AntakyaTarih" />
+        <activity
+            android:name=".antakyaKalesi"
+            android:exported="false"
+            android:parentActivityName=".AntakyaTarih" />
+        <activity
+            android:name=".neccarCami"
+            android:exported="false"
+            android:parentActivityName=".AntakyaTarih" />
+        <activity
+            android:name=".uluCami"
+            android:exported="false"
+            android:parentActivityName=".AntakyaTarih" />
+        <activity
+            android:name=".AntakyaTatli"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AntakyaYemek"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AntakyaTarih"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AntakyaGenelinde"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
